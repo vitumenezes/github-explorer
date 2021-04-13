@@ -59,8 +59,9 @@ MIT License. See [LICENSE.md](LICENSE.md) to check details.
 ---
 
 <p align="center">
+<b>Always made with love :heart: </b><br/><br/>
+  <img height="90px" src="https://media.tenor.com/images/df8c44a1d20ab367fdcb21880985fd33/tenor.gif">
 
-  <img width="25%" src="https://media1.tenor.com/images/600e6c6b20438bb36c056b19ffa41f30/tenor.gif?itemid=12274412">
+  <img height="90px" src="https://media1.tenor.com/images/600e6c6b20438bb36c056b19ffa41f30/tenor.gif?itemid=12274412">
 
-made With love
 </p>
