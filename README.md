@@ -1,46 +1,66 @@
-# Getting Started with Create React App
+<img src=".github/demo.gif" width="100%"/>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Github Explorer
 
-## Available Scripts
+Created with [Typescript](https://github.com/microsoft/TypeScript/), [React JS](https://github.com/facebook/react) and using the [Style Components](https://github.com/styled-components/styled-components) library.
+Simple application to explore repositories through Github.
+Github's own API was used to query the data.
 
-In the project directory, you can run:
 
-### `npm start`
+## What was done
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Search and listing repostories (user/repository)
+- Page dedicated to each repository with the information:
+  - Stars count
+  - Forks count
+  - Open issues count
+- All open issues are shown on the repository page
+- Simple navigation between Dasboard page and Repository
+- Handling search errors
+- Use of local storage
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+---
 
-### `npm test`
+## How to run the project
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+> :information_source: First of all, you need to have **npm** (or yarn) and **Git** installed on your machine
 
-### `npm run build`
+```bash
+# (Using yarn as an example)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Clone the project on your machine
+> git clone https://github.com/vitumenezes/github-explorer
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Enter the folder
+> cd github-explorer
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Install the dependencies
+> yarn install
 
-### `npm run eject`
+# Run the project
+> yarn start
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+The project will run on your localhost on port 3000 by default. So just access your browser at [http://localhost:3000](http://localhost:3000) to view.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## That's it! Want to contribute?
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- Make a fork of this repo;
+- Create a branch with your feature: `git checkout -b my-feature`;
+- Commit your changes: `git commit -m 'feat: my new feature'`;
+- Push your new branch: `git push origin my-feature`.
+- Go to Github and you will see the **Compare & pull request** button;
+- Click it and make your Pull Request!
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## LICENSE
 
-## Learn More
+MIT License. See [LICENSE.md](LICENSE.md) to check details.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<p align="center">
+
+  <img width="25%" src="https://media1.tenor.com/images/600e6c6b20438bb36c056b19ffa41f30/tenor.gif?itemid=12274412">
+
+made With love
+</p>
